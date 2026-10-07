@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { getSection, html } from '@/lib/altai-template'
 import { AltaiIcon } from './icon'
 
@@ -33,10 +34,10 @@ export function AltaiHero() {
           </ul>
 
           <div className="altai-hero__actions">
-            <a className="altai-btn" href="#altai-shop">
+            <Link className="altai-btn" href="/shop">
               {s.button_label}
               <AltaiIcon name="arrow" />
-            </a>
+            </Link>
             <a className="altai-link" href={s.secondary_link}>
               {s.secondary_label}
             </a>

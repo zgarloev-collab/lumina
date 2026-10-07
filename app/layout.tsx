@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Cormorant_Garamond, Inter } from 'next/font/google'
+import { SiteHeader } from '@/components/site-header'
 import './globals.css'
 import '../shopify-theme/assets/altai-landing.css'
 
@@ -42,7 +43,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`} style={{ background: '#F4F6F4' }}>
-      <body className="antialiased" style={{ margin: 0 }}>
+      <body className="font-sans antialiased" style={{ margin: 0 }}>
+        <SiteHeader />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
