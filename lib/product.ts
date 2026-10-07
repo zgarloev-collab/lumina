@@ -27,9 +27,9 @@ export const product = {
       label: 'Jar on glacier ice',
     },
     {
-      src: '/images/product-spoon.png',
-      alt: 'Macro shot of a glossy drop of shilajit resin on a golden spoon',
-      label: 'Resin on golden spoon',
+      src: '/images/product-jar-detail.png',
+      alt: 'Round semi-transparent black glass jar with a matte black lid on a frosted stone slab',
+      label: 'Jar on frosted stone',
     },
     {
       src: '/images/product-resin.png',

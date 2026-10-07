@@ -29,7 +29,7 @@ const tabs = [
     content: (
       <ol className="flex flex-col gap-5">
         {[
-          ['Scoop', 'Use the included golden spoon to take a pea-sized portion (about 300mg) of resin.'],
+          ['Portion', 'Take a pea-sized portion (about 300mg) of resin from the jar.'],
           ['Dissolve', 'Stir it into a cup of warm water, tea, or milk — never boiling — until fully dissolved.'],
           ['Ritual', 'Drink every morning, ideally on an empty stomach. Consistency over 4–6 weeks brings the best results.'],
         ].map(([title, text], i) => (
